@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.get('/', (req, res) => res.send("<h1>Welcome To The Api</h1>"));
+app.get('/', (req, res) => res.send("<h1>Welcome To The Rest API</h1>"));
 
 
 const userSocketMap = {};
