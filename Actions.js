@@ -1,10 +1,10 @@
 const ACTIONS = {
-    JOIN: 'join',
-    JOINED: 'joined',
-    DISCONNECTED: 'disconnected',
-    CODE_CHANGE: 'code-change',
-    SYNC_CODE: 'sync-code',
-    LEAVE: 'leave',
+    JOIN: 'Join',
+    JOINED: 'Joined',
+    DISCONNECTED: 'Disconnected',
+    CODE_CHANGE: 'Code-change',
+    SYNC_CODE: 'Sync-code',
+    LEAVE: 'Leave',
 };
 
 export default ACTIONS;
