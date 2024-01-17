@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -r esm server.js",
-    "prod": "node -r esm server.js"
+    "production": "node -r esm server.js"
   },
   "author": "Ranjan Sharma",
   "license": "ISC",
